@@ -3,11 +3,11 @@ import { ActivatedRoute } from '@angular/router';
 import { ApiServiceService } from 'src/app/services/api/api-service.service';
 
 @Component({
-  selector: 'app-book-details',
-  templateUrl: './book-details.component.html',
-  styleUrls: ['./book-details.component.css']
+  selector: 'app-article-details',
+  templateUrl: './article-details.component.html',
+  styleUrls: ['./article-details.component.css']
 })
-export class BookDetailsComponent implements OnInit {
+export class ArticleDetailsComponent implements OnInit {
    articleData:any;
    article_id:any;
    currentUser:any;
